@@ -1,0 +1,81 @@
+.to-do-list {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(133, 221, 248);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+}
+
+.to-do-list label {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.to-do-list input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.to-do-list .add-btn {
+    width: 80px;
+    padding: 8px;
+    margin-left: 10px;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.to-do-list .add-btn:hover {
+    background-color: #333;
+}
+
+.to-do-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.to-do-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.to-do-list li span {
+    flex: 1;
+    font-size: 1.1em;
+}
+
+.to-do-list li button {
+    margin-left: 10px;
+    padding: 6px 10px;
+    font-size: 0.9em;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.to-do-list li button:hover {
+    background-color: #333;
+}
+
+.to-do-list li input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
